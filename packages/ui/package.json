@@ -8,15 +8,16 @@
     "dev": "tsup --watch",
     "clean": "rm -rf dist"
   },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.1"
+  },
   "devDependencies": {
     "@repo/typescript-config": "*",
+    "@swc/core": "^1.6.13",
     "@types/react": "^18.2.46",
     "@types/react-native": "^0.73.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-native": "^0.73.1"
   }
 }
