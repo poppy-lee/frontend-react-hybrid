@@ -1,8 +1,8 @@
 import {
-  TouchableOpacity,
   StyleSheet,
   GestureResponderEvent,
   Text,
+  Pressable,
 } from "react-native";
 
 export interface ButtonProps {
@@ -12,9 +12,9 @@ export interface ButtonProps {
 
 export function Button({ text, onClick }: ButtonProps) {
   return (
-    <TouchableOpacity style={styles.button} onPress={onClick}>
+    <Pressable style={styles.button} onPress={onClick}>
       <Text style={styles.text}>{text}</Text>
-    </TouchableOpacity>
+    </Pressable>
   );
 }
 
