@@ -7,7 +7,7 @@
     "dev": "expo start"
   },
   "dependencies": {
-    "@repo/ui": "*",
+    "@repo/screens": "*",
     "expo": "^51.0.21",
     "expo-router": "^3.5.18",
     "expo-status-bar": "~1.12.1",

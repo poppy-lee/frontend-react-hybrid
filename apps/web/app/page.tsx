@@ -1,14 +1,7 @@
 "use client";
 
-import { Button } from "@repo/ui";
+import { HomeScreen } from "@repo/screens";
 
-import styles from "../styles/index.module.css";
-
-export default function Web() {
-  return (
-    <div className={styles.container}>
-      <h1>Web</h1>
-      <Button onClick={() => console.log("Pressed!")} text="Boop" />
-    </div>
-  );
+export default function HomeWeb() {
+  return <HomeScreen />;
 }
