@@ -3,15 +3,14 @@ import { StyleSheet, Text, View } from "react-native";
 import { Button } from "@repo/ui";
 
 export const HomeScreen = () => {
+  // const router = useRouter();
+
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Home</Text>
       <Button
-        onClick={() => {
-          console.log("Pressed!");
-          alert("Pressed!");
-        }}
-        text="Boop"
+        // onClick={() => router.push("/detail")}
+        text={`router.push("/detail")`}
       />
     </View>
   );
