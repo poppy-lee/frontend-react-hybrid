@@ -1,13 +1,7 @@
 {
   "name": "@repo/screens",
   "version": "0.0.0",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
-    "clean": "rm -rf dist"
-  },
+  "main": "./src/index.ts",
   "dependencies": {
     "@repo/ui": "*",
     "react": "18.2.0",
@@ -15,10 +9,7 @@
   },
   "devDependencies": {
     "@repo/typescript-config": "*",
-    "@swc/core": "^1.6.13",
     "@types/react": "^18.2.46",
-    "@types/react-native": "^0.73.0",
-    "tsup": "^8.0.1",
-    "typescript": "^5.3.3"
+    "@types/react-native": "^0.73.0"
   }
 }
