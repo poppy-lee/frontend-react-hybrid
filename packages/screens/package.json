@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@types/react": "*",
-    "@types/react-native": "*"
+    "@types/react-native": "*",
+    "expo": "*"
   }
 }
