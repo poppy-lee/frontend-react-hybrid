@@ -10,7 +10,6 @@
     "react-native": "*"
   },
   "devDependencies": {
-    "@repo/typescript-config": "*",
     "@types/react": "*",
     "@types/react-native": "*"
   }
