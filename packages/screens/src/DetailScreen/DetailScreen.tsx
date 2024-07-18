@@ -1,17 +1,15 @@
+import { useRouter } from "@repo/hooks";
+import { Button } from "@repo/ui";
+import { FunctionComponent } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-import { Button } from "@repo/ui";
-
-export const DetailScreen = () => {
-  // const router = useRouter();
+export const DetailScreen: FunctionComponent = () => {
+  const router = useRouter();
 
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Detail</Text>
-      <Button
-        // onClick={() => router.back()}
-        text={`router.back()`}
-      />
+      <Button onClick={() => router.back()} text={`router.back()`} />
     </View>
   );
 };

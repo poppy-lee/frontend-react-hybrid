@@ -1,15 +1,16 @@
+import { useRouter } from "@repo/hooks";
+import { Button } from "@repo/ui";
+import { FunctionComponent } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-import { Button } from "@repo/ui";
-
-export const HomeScreen = () => {
-  // const router = useRouter();
+export const HomeScreen: FunctionComponent = () => {
+  const router = useRouter();
 
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Home</Text>
       <Button
-        // onClick={() => router.push("/detail")}
+        onClick={() => router.push("/detail")}
         text={`router.push("/detail")`}
       />
     </View>
