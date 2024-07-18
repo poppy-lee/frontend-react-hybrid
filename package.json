@@ -1,10 +1,11 @@
 {
+  "name": "frontend-react-hybrid",
   "private": true,
   "scripts": {
-    "start": "turbo run dev",
+    "start": "dev",
+    "dev": "turbo run dev",
     "build": "turbo run build",
-    "clean": "turbo run clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore"
+    "clean": "turbo run clean && rm -rf node_modules"
   },
   "devDependencies": {
     "prettier": "^3.1.1",
@@ -13,7 +14,6 @@
   "engines": {
     "node": ">=18"
   },
-  "name": "with-react-native-web",
   "packageManager": "npm@10.5.2",
   "workspaces": [
     "apps/*",
