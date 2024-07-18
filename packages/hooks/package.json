@@ -1,0 +1,17 @@
+{
+  "name": "@repo/hooks",
+  "version": "0.0.0",
+  "main": "./src/index.ts",
+  "scripts": {
+    "clean": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "expo-router": "*",
+    "next": "*",
+    "react": "*"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "@types/react": "*"
+  }
+}
