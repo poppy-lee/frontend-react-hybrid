@@ -1,7 +1,7 @@
-"use client";
+"use client"
 
-import { HomeScreen } from "@repo/screens";
+import { HomeScreen } from "@repo/screens"
 
 export default function Home() {
-  return <HomeScreen />;
+  return <HomeScreen />
 }

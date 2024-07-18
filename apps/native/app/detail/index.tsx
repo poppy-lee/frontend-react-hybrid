@@ -1,5 +1,5 @@
-import { DetailScreen } from "@repo/screens";
+import { DetailScreen } from "@repo/screens"
 
 export default function Detail() {
-  return <DetailScreen />;
+  return <DetailScreen />
 }

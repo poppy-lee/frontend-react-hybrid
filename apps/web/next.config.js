@@ -1,4 +1,4 @@
-const { withExpo } = require("@expo/next-adapter");
+const { withExpo } = require("@expo/next-adapter")
 
 /**
  * @type {import("next").NextConfig}
@@ -6,6 +6,6 @@ const { withExpo } = require("@expo/next-adapter");
 const nextConfig = withExpo({
   reactStrictMode: true,
   transpilePackages: ["react-native", "expo"],
-});
+})
 
-module.exports = nextConfig;
+module.exports = nextConfig

@@ -1,21 +1,19 @@
-import { useRouter } from "@repo/hooks";
-import { Button } from "@repo/ui";
-import { FunctionComponent } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { FunctionComponent } from "react"
+import { StyleSheet, Text, View } from "react-native"
+
+import { useRouter } from "@repo/hooks"
+import { Button } from "@repo/ui"
 
 export const HomeScreen: FunctionComponent = () => {
-  const router = useRouter();
+  const router = useRouter()
 
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Home</Text>
-      <Button
-        onClick={() => router.push("/detail")}
-        text={`router.push("/detail")`}
-      />
+      <Button onClick={() => router.push("/detail")} text={`router.push("/detail")`} />
     </View>
-  );
-};
+  )
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -29,4 +27,4 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     fontSize: 36,
   },
-});
+})

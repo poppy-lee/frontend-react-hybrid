@@ -1,13 +1,8 @@
-import {
-  StyleSheet,
-  GestureResponderEvent,
-  Text,
-  Pressable,
-} from "react-native";
+import { GestureResponderEvent, Pressable, StyleSheet, Text } from "react-native"
 
 export interface ButtonProps {
-  text: string;
-  onClick?: (event: GestureResponderEvent) => void;
+  text: string
+  onClick?: (event: GestureResponderEvent) => void
 }
 
 export function Button({ text, onClick }: ButtonProps) {
@@ -15,7 +10,7 @@ export function Button({ text, onClick }: ButtonProps) {
     <Pressable style={styles.button} onPress={onClick}>
       <Text style={styles.text}>{text}</Text>
     </Pressable>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -33,4 +28,4 @@ const styles = StyleSheet.create({
   text: {
     color: "white",
   },
-});
+})

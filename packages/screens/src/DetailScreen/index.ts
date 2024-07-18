@@ -1,1 +1,1 @@
-export * from "./DetailScreen";
+export * from "./DetailScreen"
