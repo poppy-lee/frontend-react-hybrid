@@ -2,14 +2,18 @@
   "name": "@repo/screens",
   "version": "0.0.0",
   "main": "./src/index.ts",
+  "scripts": {
+    "clean": "rm -rf node_modules"
+  },
   "dependencies": {
+    "@repo/hooks": "*",
     "@repo/ui": "*",
-    "react": "18.2.0",
-    "react-native": "0.74.3"
+    "react": "*",
+    "react-native": "*"
   },
   "devDependencies": {
     "@repo/typescript-config": "*",
-    "@types/react": "^18.2.46",
-    "@types/react-native": "^0.73.0"
+    "@types/react": "*",
+    "@types/react-native": "*"
   }
 }
