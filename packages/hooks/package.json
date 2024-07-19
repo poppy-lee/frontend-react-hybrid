@@ -11,6 +11,7 @@
     "react": "*"
   },
   "devDependencies": {
+    "@repo/configs": "*",
     "@types/react": "*",
     "expo": "*"
   }

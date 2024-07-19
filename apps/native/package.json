@@ -1,5 +1,5 @@
 {
-  "name": "frontend-react-native",
+  "name": "native",
   "version": "1.0.0",
   "private": true,
   "main": "expo-router/entry",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
+    "@repo/configs": "*",
     "@types/react": "~18.2.79",
     "@types/react-native": "^0.73.0",
     "typescript": "~5.3.3"
