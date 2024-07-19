@@ -3,9 +3,10 @@
   "private": true,
   "scripts": {
     "start": "npm run dev",
-    "dev": "turbo run dev",
-    "build": "turbo run build",
-    "clean": "turbo run clean && rm -rf node_modules"
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "clean": "turbo clean && rm -rf node_modules",
+    "lint": "turbo lint"
   },
   "devDependencies": {
     "turbo": "^2.0.7"
