@@ -10,7 +10,10 @@ export const HomeScreen: FunctionComponent = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Home</Text>
-      <Button onClick={() => router.push("/detail")} text={`router.push("/detail")`} />
+      <Button
+        onClick={() => router.push("/detail")}
+        text={`router.push("/detail")`}
+      />
     </View>
   )
 }

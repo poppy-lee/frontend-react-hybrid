@@ -1,4 +1,9 @@
-import { GestureResponderEvent, Pressable, StyleSheet, Text } from "react-native"
+import {
+  GestureResponderEvent,
+  Pressable,
+  StyleSheet,
+  Text,
+} from "react-native"
 
 export interface ButtonProps {
   text: string
