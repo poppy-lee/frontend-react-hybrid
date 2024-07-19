@@ -20,6 +20,6 @@
     "@repo/configs": "*",
     "@types/react": "~18.2.79",
     "@types/react-native": "^0.73.0",
-    "typescript": "~5.3.3"
+    "typescript": "5.3.3"
   }
 }
