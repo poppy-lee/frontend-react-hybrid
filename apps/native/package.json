@@ -5,7 +5,8 @@
   "main": "expo-router/entry",
   "scripts": {
     "dev": "expo start",
-    "clean": "rm -rf .expo node_modules"
+    "clean": "rm -rf .expo .turbo node_modules",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@repo/screens": "*",
@@ -20,6 +21,7 @@
     "@repo/configs": "*",
     "@types/react": "~18.2.79",
     "@types/react-native": "^0.73.0",
+    "eslint-config-expo": "^7.1.2",
     "typescript": "5.3.3"
   }
 }

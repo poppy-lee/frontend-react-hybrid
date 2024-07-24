@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "./src/index.ts",
   "scripts": {
-    "clean": "rm -rf node_modules"
+    "clean": "rm -rf .turbo node_modules",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "*",
