@@ -6,10 +6,10 @@
     "dev": "turbo dev",
     "build": "turbo build",
     "clean": "turbo clean && rm -rf node_modules",
-    "lint": "turbo lint"
+    "lint": "turbo lint --continue"
   },
   "devDependencies": {
-    "turbo": "^2.0.7"
+    "turbo": "^2.0.9"
   },
   "engines": {
     "node": ">=18"

@@ -16,6 +16,6 @@
     "@repo/configs": "*",
     "@types/react": "*",
     "@types/react-native": "*",
-    "expo": "*"
+    "eslint": "*"
   }
 }
