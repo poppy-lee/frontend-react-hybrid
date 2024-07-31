@@ -4,4 +4,5 @@ const eslintConfig = require("@repo/configs/eslintrc.js")
 module.exports = {
   ...eslintConfig,
   extends: [...eslintConfig.extends, "expo"],
+  ignorePatterns: ["*.js", "*.ts"],
 }

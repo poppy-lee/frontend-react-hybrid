@@ -5,4 +5,5 @@ module.exports = {
   ...eslintConfig,
   env: { ...eslintConfig.env, browser: true },
   extends: [...eslintConfig.extends, "next"],
+  ignorePatterns: ["*.js", "*.ts"],
 }
