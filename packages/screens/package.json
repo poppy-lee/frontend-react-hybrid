@@ -15,7 +15,6 @@
   "devDependencies": {
     "@repo/configs": "*",
     "@types/react": "*",
-    "@types/react-native": "*",
     "eslint": "*"
   }
 }
