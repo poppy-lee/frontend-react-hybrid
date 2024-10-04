@@ -9,7 +9,8 @@
   "dependencies": {
     "expo-router": "*",
     "next": "*",
-    "react": "*"
+    "react": "*",
+    "solito": "4.2.2"
   },
   "devDependencies": {
     "@repo/configs": "*",
