@@ -4,6 +4,7 @@ const eslintConfig = require("@repo/configs/eslintrc.js")
 module.exports = {
   ...eslintConfig,
   env: { ...eslintConfig.env, browser: true },
-  extends: [...eslintConfig.extends, "next"],
+  extends: [...eslintConfig.extends],
+  plugins: [...eslintConfig.plugins, "@next/eslint-plugin-next"],
   ignorePatterns: ["*.js", "*.ts"],
 }

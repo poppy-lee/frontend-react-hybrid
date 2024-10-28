@@ -3,7 +3,7 @@ module.exports = {
   root: true,
   env: { es2022: true, node: true },
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "eslint-plugin-react-compiler"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -17,6 +17,7 @@ module.exports = {
     "react/jsx-uses-react": "off",
     "react/jsx-uses-vars": "off",
     "react/react-in-jsx-scope": "off",
+    "react-compiler/react-compiler": "error",
     "react-hooks/exhaustive-deps": "error",
   },
   settings: {

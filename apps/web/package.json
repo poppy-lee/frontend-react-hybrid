@@ -7,24 +7,27 @@
     "build": "next build",
     "clean": "rm -rf .next .turbo node_modules",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@repo/screens": "*",
     "next": "^15.0.1",
     "react": "18.3.1",
+    "react-compiler-runtime": "^19.0.0-beta-6fc168f-20241025",
     "react-dom": "18.3.1",
     "react-native-web": "^0.19.12"
   },
   "devDependencies": {
     "@expo/next-adapter": "^6.0.0",
+    "@next/eslint-plugin-next": "^15.0.1",
     "@repo/configs": "*",
     "@types/node": "^20.10.6",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "babel-plugin-react-compiler": "^19.0.0-beta-6fc168f-20241025",
     "babel-plugin-react-native-web": "^0.19.12",
     "eslint": "*",
-    "eslint-config-next": "15.0.1",
+    "eslint-plugin-react-compiler": "^19.0.0-beta-6fc168f-20241025",
     "typescript": "5.3.3"
   }
 }
