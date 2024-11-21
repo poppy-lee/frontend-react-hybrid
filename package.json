@@ -5,7 +5,7 @@
     "start": "npm run dev",
     "dev": "turbo dev",
     "build": "turbo build",
-    "clean": "turbo clean && rm -rf node_modules",
+    "clean": "turbo clean && rm -rf .turbo node_modules",
     "lint": "turbo lint --continue"
   },
   "devDependencies": {
