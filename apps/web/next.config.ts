@@ -8,6 +8,6 @@ const nextConfig: NextConfig = withExpo({
     reactCompiler: true,
     forceSwcTransforms: true,
   },
-})
+} as NextConfig)
 
 export default nextConfig
