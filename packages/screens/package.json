@@ -7,13 +7,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@repo/hooks": "*",
-    "@repo/ui": "*",
+    "@repo/hooks": "workspace:*",
+    "@repo/ui": "workspace:*",
     "react": "*",
     "react-native": "*"
   },
   "devDependencies": {
-    "@repo/configs": "*",
+    "@repo/configs": "workspace:*",
     "@types/react": "*",
     "eslint": "*"
   }

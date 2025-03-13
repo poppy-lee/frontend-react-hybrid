@@ -11,7 +11,7 @@
     "react-native": "*"
   },
   "devDependencies": {
-    "@repo/configs": "*",
+    "@repo/configs": "workspace:*",
     "@types/react": "*",
     "eslint": "*"
   }

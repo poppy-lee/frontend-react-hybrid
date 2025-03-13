@@ -13,7 +13,7 @@
     "solito": "4.3.0"
   },
   "devDependencies": {
-    "@repo/configs": "*",
+    "@repo/configs": "workspace:*",
     "@types/react": "*",
     "eslint": "*"
   }
