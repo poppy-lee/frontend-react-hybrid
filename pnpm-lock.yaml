@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  babel-plugin-react-native-web:
+    hash: b4f8b1a0e393b784b9ea57008b88450420026d0bd681b9b5d2e740677b8f9cfd
+    path: patches/babel-plugin-react-native-web.patch
+
 importers:
 
   .:
@@ -108,7 +113,7 @@ importers:
         version: 19.0.0-beta-bafa41b-20250307
       babel-plugin-react-native-web:
         specifier: ^0.19.13
-        version: 0.19.13
+        version: 0.19.13(patch_hash=b4f8b1a0e393b784b9ea57008b88450420026d0bd681b9b5d2e740677b8f9cfd)
       eslint:
         specifier: '*'
         version: 8.57.0
@@ -7417,7 +7422,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.26.10
 
-  babel-plugin-react-native-web@0.19.13: {}
+  babel-plugin-react-native-web@0.19.13(patch_hash=b4f8b1a0e393b784b9ea57008b88450420026d0bd681b9b5d2e740677b8f9cfd): {}
 
   babel-plugin-syntax-hermes-parser@0.23.1:
     dependencies:
@@ -7461,7 +7466,7 @@ snapshots:
       '@babel/preset-react': 7.26.3(@babel/core@7.26.10)
       '@babel/preset-typescript': 7.26.0(@babel/core@7.26.10)
       '@react-native/babel-preset': 0.76.7(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))
-      babel-plugin-react-native-web: 0.19.13
+      babel-plugin-react-native-web: 0.19.13(patch_hash=b4f8b1a0e393b784b9ea57008b88450420026d0bd681b9b5d2e740677b8f9cfd)
       react-refresh: 0.14.2
     optionalDependencies:
       babel-plugin-react-compiler: 19.0.0-beta-bafa41b-20250307

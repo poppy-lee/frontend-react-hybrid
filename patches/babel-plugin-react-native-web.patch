@@ -1,0 +1,12 @@
+diff --git a/src/moduleMap.js b/src/moduleMap.js
+index a83dd77e1d2bca4262eabc30c4a0f7bfbe826801..24b3c13691946a909c83e5f7fa075b645bfb897e 100644
+--- a/src/moduleMap.js
++++ b/src/moduleMap.js
+@@ -55,7 +55,6 @@ module.exports = {
+   VirtualizedList: true,
+   YellowBox: true,
+   createElement: true,
+-  findNodeHandle: true,
+   processColor: true,
+   render: true,
+   unmountComponentAtNode: true,
