@@ -12,6 +12,7 @@ module.exports = {
     "plugin:react-hooks/recommended",
   ],
   rules: {
+    "@typescript-eslint/no-require-imports": "off",
     "@typescript-eslint/no-var-requires": "off",
     "prettier/prettier": "warn",
     "react/jsx-uses-react": "off",

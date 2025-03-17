@@ -1,4 +1,4 @@
-const eslintConfig = require("@repo/configs/eslintrc.js")
+const eslintConfig = require("@repo/configs/eslintrc")
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {

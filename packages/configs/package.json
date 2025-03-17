@@ -2,8 +2,16 @@
   "name": "@repo/configs",
   "version": "0.0.0",
   "private": true,
-  "publishConfig": {
-    "access": "public"
+  "exports": {
+    "./eslintrc": {
+      "require": "./eslintrc.cjs",
+      "import": "./eslintrc.mjs"
+    },
+    "./prettier": {
+      "require": "./prettier.cjs",
+      "import": "./prettier.mjs"
+    },
+    "./tsconfig.json": "./tsconfig.json"
   },
   "scripts": {
     "clean": "rm -rf .turbo node_modules"
