@@ -10,7 +10,7 @@
     "expo-router": "*",
     "next": "*",
     "react": "*",
-    "solito": "4.3.0"
+    "solito": "4.4.0"
   },
   "devDependencies": {
     "@repo/configs": "workspace:*",
