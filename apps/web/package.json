@@ -26,7 +26,7 @@
     "@types/react-dom": "~19.0.4",
     "babel-plugin-react-compiler": "19.1.0-rc.1",
     "babel-plugin-react-native-web": "^0.20.0",
-    "eslint": "^9.26.0",
+    "eslint": "*",
     "typescript": "5.8.3"
   }
 }
