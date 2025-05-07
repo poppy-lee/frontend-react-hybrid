@@ -17,11 +17,5 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "pnpm@10.6.2",
-  "pnpm": {
-    "patchedDependencies": {
-      "babel-plugin-react-native-web": "patches/babel-plugin-react-native-web.patch",
-      "react-native-web": "patches/react-native-web.patch"
-    }
-  }
+  "packageManager": "pnpm@10.6.2"
 }
